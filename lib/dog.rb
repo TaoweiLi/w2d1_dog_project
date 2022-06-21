@@ -19,15 +19,15 @@ class Dog
     @age
   end
 
-  def age=(number)
-    @age = number
+  def age=(new_number)
+    @age = new_number
   end
 
   def bark 
     if @age > 3
-      @bark.upcase
+      return @bark.upcase
     else
-      @bark.downcase
+      return @bark.downcase
     end
   end
 
